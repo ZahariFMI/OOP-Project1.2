@@ -80,6 +80,8 @@ void Library::printSorted(SortMode mode,bool des)
             (*arr[i]).shortPrint();
             cout<<endl;
         }
+    
+    delete[] arr;
 }
 
 void Library::delBook(string& heading)
